@@ -1,0 +1,24 @@
+{
+  "name": "bailey-cli",
+  "version": "1.0.0",
+  "description": "A cli runner for bailey, finds uses local installed bailey if it can be found",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/relekang/bailey-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/relekang/bailey-cli/issues"
+  },
+  "bin": {
+    "bailey": "index.js"
+  },
+  "scripts": {
+    "test": "npm install bailey > /dev/null && ./index.js"
+  },
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "dependencies": {
+    "resolve": "^1.1.0"
+  }
+}
