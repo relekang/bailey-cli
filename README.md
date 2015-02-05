@@ -1,6 +1,6 @@
 # bailey-cli [![Build Status](https://ci.frigg.io/badges/relekang/bailey-cli/)](https://ci.frigg.io/relekang/bailey-cli/last/)
 
-A cli runner for bailey, finds uses local installed bailey if it can be found.
+A cli runner for bailey, finds and uses local installed bailey if it can be found.
 
 
 ## Install
